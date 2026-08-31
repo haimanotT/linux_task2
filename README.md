@@ -1,9 +1,9 @@
 # Linux file creation,file permission and ownership 
 #### Assessment type: Linux fundamentals
 #### Focus Area:
-            #####File creation
-            ##### file permissions
-            ##### ownership management
+             - File creation
+             - file permissions
+             - ownership management
 #### Environment:kalilinux
 #### Date: aug 31 2026
 ### objective
@@ -32,9 +32,9 @@ The file permission was configured using the` chmod` command.
 Permission value `640` is divided into three sections:
 
  Value  Permission  Applies To 
- **6**     Read + Write   Owner 
- **4**      Read Only      Group 
- **0**      No Permission  Others 
+ #### 6 ####    Read + Write   Owner 
+ #### 4 ####     Read Only      Group 
+ #### 0 ####      No Permission  Others 
 
 
 `rw-r-----`
@@ -49,7 +49,7 @@ Linux permissions are represented using three digits `r`(read =4,`w`(write)-2 an
  -Owner (User)
  - Group
  - Others
-so **640**
+so ####640####
 1 `rw-` **(read + write + no excute) **`4`+`2`+`0`=`6`  the owner can read and write the  file but can't run or excute it
 2 `r--` **(read only )**`4`+`0`+`0`=`4`  the group can read  the file but can't modify and excute it
 3 `---` **no access) **`0`+`0`+`0`=`0` 0thers users can't access the file
