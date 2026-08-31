@@ -4,7 +4,7 @@
              - File creation
              - file permissions
              - ownership management
-#### Environment:kalilinux
+#### Environment: Kalilinux
 #### Date: aug 31 2026
 ### objective
 To demonstrate practical understanding of Linux file permissions, ownership, and access control using standard Linux commands.
@@ -13,9 +13,9 @@ To demonstrate practical understanding of Linux file permissions, ownership, and
 create a new file named `secret.txt` inside the `linux_test` directory by using the following command
 ### command:
 ```bash
-cd linux_test #move to linux_test directory
-touch secret.txt # create new file inside linux test
-ls #verify secret.txt was succeessfully created
+cd linux_test move to linux_test directory
+touch secret.txt  create new file inside linux test
+ls verify secret.txt was succeessfully created
 ```
 
 <img width="260" height="228" alt="step1" src="https://github.com/user-attachments/assets/0cbe2b05-8499-488c-8e9b-529b4e39a450" />
@@ -32,9 +32,9 @@ The file permission was configured using the` chmod` command.
 Permission value `640` is divided into three sections:
 
  Value  Permission  Applies To 
- #### 6 ####    Read + Write   Owner 
- #### 4 ####     Read Only      Group 
- #### 0 ####      No Permission  Others 
+ #### 6    Read + Write   Owner 
+ #### 4     Read Only      Group 
+ #### 0      No Permission  Others 
 
 
 `rw-r-----`
@@ -49,7 +49,7 @@ Linux permissions are represented using three digits `r`(read =4,`w`(write)-2 an
  -Owner (User)
  - Group
  - Others
-so ####640####
+ ##### so, 640
 1 `rw-` **(read + write + no excute) **`4`+`2`+`0`=`6`  the owner can read and write the  file but can't run or excute it
 2 `r--` **(read only )**`4`+`0`+`0`=`4`  the group can read  the file but can't modify and excute it
 3 `---` **no access) **`0`+`0`+`0`=`0` 0thers users can't access the file
@@ -73,7 +73,7 @@ The output confirms that:
 - The file owner is `haimanot`
 - The assigned group is `users`
 - The permission remains `640 (rw-r-----)`
- ** but owner ownership modification is not suitable because no additional users was available on the system
+  #####but owner ownership modification is not suitable because no additional users was available on the system
   
   <img width="235" height="89" alt="step4" src="https://github.com/user-attachments/assets/e4371823-75cc-4835-af2b-42335c11180a" />
 
