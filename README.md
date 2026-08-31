@@ -1,11 +1,11 @@
 # Linux file creation,file permission and ownership 
-**Assessment type: Linux fundamentals
-**Focus Area:
-            *File creation
-            *file permissions
-            *ownership management
-**Environment:kalilinux
-**Date: aug 31 2026
+** Assessment type: Linux fundamentals
+** Focus Area:
+            * File creation
+            * file permissions
+            * ownership management
+** Environment:kalilinux
+** Date: aug 31 2026
 ### objective
 To demonstrate practical understanding of Linux file permissions, ownership, and access control using standard Linux commands.
 
