@@ -7,12 +7,12 @@ Focus Area:
             -ownership management
 Environment:kalilinux
 Date: aug 31 2026
-###objective
+### objective
 To demonstrate practical understanding of Linux file permissions, ownership, and access control using standard Linux commands.
 
 ## step1 create a file
 create a new file named secret.txt inside the linux_test directory by using the following command
-###command:
+### command:
 cd linux_test used for move to linux_test directory
 touch secret.txt to create new file inside linux test
 ls to verify secret.txt was succeessfully created
@@ -20,7 +20,7 @@ ls to verify secret.txt was succeessfully created
 <img width="260" height="228" alt="step1" src="https://github.com/user-attachments/assets/0cbe2b05-8499-488c-8e9b-529b4e39a450" />
 
 
-##step2 Configure file permissions
+## step2 Configure file permissions
 ### Command
 chmod 640 secret.txt or chmod u=rw,g=r,o= secret.txt
 ls -l secret.txt
@@ -41,7 +41,7 @@ The ls -l command was used to verify that the permission settings were successfu
 
 <img width="233" height="126" alt="step2" src="https://github.com/user-attachments/assets/8d233a0e-e891-4757-a435-998c2b61914d" />
 
-##step3  permission 640
+## step3  permission 640
 Linux permissions are represented using three digits r-read =4,w-write-2 and x-excute=1 Each digit corresponds to a specific category of users
 - Owner (User)
 - Group
